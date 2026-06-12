@@ -83,7 +83,7 @@ In addition to the parameters explored for Betti curves, these representations i
     - Normalization
     - Gaussian smoothing
   - Statistical evaluation:
-    - Mann–Whitney U test (per bin)
+    - Mann–Whitney U test
     - Fisher combination
 
 ---
