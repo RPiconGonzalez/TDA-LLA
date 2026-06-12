@@ -57,6 +57,11 @@ Users should filter the dataset accordingly before running the pipeline.
 ### Step 3 — Grid search on Betti Curves
 For Persistence Landscapes, Silhouettes and Persistence Images, equivalent notebooks are provided within their respective folders, following the same pipeline (Step 3.1 and Step 3.2) for both individual (H0, H1) and concatenated (H0+H1) representations.
 
+In addition to the parameters explored for Betti curves, these representations include **descriptor-specific hyperparameters**, such as:
+- Number of landscapes (for Persistence Landscapes)
+- Resolution and weighting functions (for Persistence Images)
+- Representation-specific smoothing and scaling parameters
+
 #### Individual dimensions
 - **Step 3.1 Grid-BC.ipynb**
   - Computes Betti curves for H0 and H1
@@ -66,7 +71,7 @@ For Persistence Landscapes, Silhouettes and Persistence Images, equivalent noteb
     - Normalization
     - Gaussian smoothing
   - Statistical evaluation:
-    - Mann–Whitney U test (per bin)
+    - Mann–Whitney U test
     - Fisher combination
 
 #### Concatenated representation
