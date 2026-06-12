@@ -12,6 +12,30 @@ The pipeline is structured as a sequence of notebooks, from raw data preprocessi
 
 ---
 
+## Data
+
+The dataset used in this study is publicly available at:
+
+https://github.com/Almr95/Relapse-Prediction/tree/main/Selection_A
+
+This dataset contains the cytometry measurements used to compute persistence diagrams and subsequent topological features.
+
+The data is not redistributed in this repository. Please refer to the original source above.
+
+### Selected patients
+
+In this study, only a subset of patients corresponding to the **SEHOP–PETHEMA 2013 protocol** is considered.
+
+The list of selected patients is provided in:
+
+data/selected_patients.xlsx
+
+This file contains the identifiers of the samples included in the analysis, ensuring full reproducibility of the results.
+
+Users should filter the dataset accordingly before running the pipeline.
+
+---
+
 ## Pipeline Structure
 
 ### Step 1 — Data preprocessing
