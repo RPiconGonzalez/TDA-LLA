@@ -28,7 +28,7 @@ In this study, only a subset of patients corresponding to the **SEHOP–PETHEMA 
 
 The list of selected patients is provided in:
 
-data/selected_patients.xlsx
+Data/selected_patients.xlsx
 
 This file contains the identifiers of the samples included in the analysis, ensuring full reproducibility of the results.
 
