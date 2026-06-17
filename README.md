@@ -89,7 +89,7 @@ In addition to the parameters explored for Betti curves, these representations i
 ---
 
 ### Step 4 — Feature generation (best configs)
-Equivalent notebooks for Persistence Landscapes, Silhouettes and Persistence Images are available in their respective folders, following the same structure (Step 4.1 and Step 4.2) for both individual and concatenated representations.
+Equivalent notebooks for Persistence [Landscapes](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Landscapes), [Silhouettes](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Silhouettes) and [Images](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Images) are available in their respective folders, following the same structure (Step 4.1 and Step 4.2) for both individual and concatenated representations.
 #### Individual dimensions
 - **[Step 4.1 Generate Best -BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%204.1%20Generate%20Best%20-BC.ipynb)**
   - Generates final Betti curves for H0 and H1
