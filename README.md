@@ -46,7 +46,7 @@ Users should filter the dataset accordingly before running the pipeline.
 ---
 
 ### Step 2 — Persistence diagrams
-- **Step 2 - Vietoris Rips.ipynb**
+- **[Step 2 - Vietoris Rips.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%202%20-Vietoris%20Rips.ipynb)**
   - Computes Vietoris–Rips filtrations
   - Generates persistence diagrams:
     - H0 (connected components)
@@ -55,7 +55,7 @@ Users should filter the dataset accordingly before running the pipeline.
 ---
 
 ### Step 3 — Grid search on Betti Curves
-For Persistence Landscapes, Silhouettes and Persistence Images, equivalent notebooks are provided within their respective folders, following the same pipeline (Step 3.1 and Step 3.2) for both individual (H0, H1) and concatenated (H0+H1) representations.
+For Persistence [Landscapes](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Landscapes), [Silhouettes](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Silhouettes) and [Images](https://github.com/RPiconGonzalez/TDA-LLA/tree/main/Images), equivalent notebooks are provided within their respective folders, following the same pipeline (Step 3.1 and Step 3.2) for both individual (H0, H1) and concatenated (H0+H1) representations.
 
 In addition to the parameters explored for Betti curves, these representations include **descriptor-specific hyperparameters**, such as:
 - Number of landscapes (for Persistence Landscapes)
@@ -63,7 +63,7 @@ In addition to the parameters explored for Betti curves, these representations i
 - Representation-specific smoothing and scaling parameters
 
 #### Individual dimensions
-- **Step 3.1 Grid-BC.ipynb**
+- **[Step 3.1 Grid-BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%203.1%20Grid-BC.ipynb)**
   - Computes Betti curves for H0 and H1
   - Explores:
     - Resolution
@@ -75,7 +75,7 @@ In addition to the parameters explored for Betti curves, these representations i
     - Fisher combination
 
 #### Concatenated representation
-- **Step 3.2 Grid (H0H1)-BC.ipynb**
+- **[Step 3.2 Grid (H0H1)-BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%203.2%20Grid%20(H0H1)-BC.ipynb)**
   - Computes Betti curves for H0 + H1
   - Explores:
     - Resolution
@@ -91,12 +91,12 @@ In addition to the parameters explored for Betti curves, these representations i
 ### Step 4 — Feature generation (best configs)
 Equivalent notebooks for Persistence Landscapes, Silhouettes and Persistence Images are available in their respective folders, following the same structure (Step 4.1 and Step 4.2) for both individual and concatenated representations.
 #### Individual dimensions
-- **Step 4.1 Generate Best -BC.ipynb**
+- **[Step 4.1 Generate Best -BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%204.1%20Generate%20Best%20-BC.ipynb)**
   - Generates final Betti curves for H0 and H1
   - Uses best configuration from Step 3.1
 
 #### Concatenated representation
-- **Step 4.2 Generate Best (H0H1)-BC.ipynb**
+- **[Step 4.2 Generate Best (H0H1)-BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%204.2%20Generate%20Best%20(H0H1)-BC.ipynb)**
   - Generates final features for H0 + H1
   - Uses best configuration from Step 3.2
 
@@ -105,7 +105,7 @@ Equivalent notebooks for Persistence Landscapes, Silhouettes and Persistence Ima
 ### Step 5 — Classification
 
 #### Random Forest
-- **Step 5.1 Grid RF -BC.ipynb**
+- **[Step 5.1 Grid RF -BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%205.1%20Grid%20RF.ipynb)**
   - Grid search over:
     - n_estimators
     - max_depth
@@ -115,7 +115,7 @@ Equivalent notebooks for Persistence Landscapes, Silhouettes and Persistence Ima
     - F2-score
 
 #### Support Vector Machine
-- **Step 5.2 Grid SVM -BC.ipynb**
+- **[Step 5.2 Grid SVM -BC.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%205.2%20Grid%20SVM.ipynb)**
   - Kernels:
     - linear, rbf, poly, sigmoid
   - Parameters:
