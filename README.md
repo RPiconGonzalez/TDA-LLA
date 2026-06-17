@@ -39,7 +39,7 @@ Users should filter the dataset accordingly before running the pipeline.
 ## Pipeline Structure
 
 ### Step 1 — Data preprocessing
-- **Step 1 - FCS to TXT.ipynb**
+- **[Step 1 - FCS to TXT.ipynb](https://github.com/RPiconGonzalez/TDA-LLA/blob/main/Step%201%20-FCS%20to%20TXT.ipynb)**
   - Converts raw `.fcs` files into `.txt`
   - Prepares data for topological analysis
 
